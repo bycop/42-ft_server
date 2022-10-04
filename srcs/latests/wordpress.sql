@@ -111,7 +111,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (3, 'blogname', 'ft_server', 'yes'),
 (4, 'blogdescription', 'Un site utilisant WordPress', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
-(6, 'admin_email', 'sfournio@student.42lyon.fr', 'yes'),
+(6, 'admin_email', 'bycop@student.42lyon.fr', 'yes'),
 (7, 'start_of_week', '1', 'yes'),
 (8, 'use_balanceTags', '0', 'yes'),
 (9, 'use_smilies', '1', 'yes'),
@@ -433,7 +433,7 @@ CREATE TABLE `wp_users` (
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'wordpress', '$P$BLsYodJhloLCZ7XnnFSDDxzx5w7t7L/', 'wordpress', 'sfournio@student.42lyon.fr', '', '2021-01-01 22:01:27', '', 0, 'wordpress');
+(1, 'wordpress', '$P$BLsYodJhloLCZ7XnnFSDDxzx5w7t7L/', 'wordpress', 'bycop@student.42lyon.fr', '', '2021-01-01 22:01:27', '', 0, 'wordpress');
 
 --
 -- Index pour les tables déchargées
